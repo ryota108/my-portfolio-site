@@ -22,7 +22,6 @@ import tsuzucle from "./company/tsuzucle.png"
 import wasemeshi from "../assets/wasemeshi.png"
 import Syncation from "../assets/Syncation.png"
 import library from "../assets/library.png"
-import graphQL from "./tech/GraphQL.png"
 import NextJs from "./tech/NextJS.png"
 
 
@@ -51,6 +50,5 @@ export {
   wasemeshi,
   Syncation,
   library,
-  graphQL,
   NextJs
 };

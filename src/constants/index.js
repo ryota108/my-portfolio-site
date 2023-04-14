@@ -19,7 +19,6 @@ import {
   wasemeshi,
   Syncation,
   library,
-  graphQL,
   NextJs
 } from "../assets";
 
@@ -93,10 +92,6 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "graphQL",
-    icon: graphQL,
   },
   {
     name: "NextJS",
