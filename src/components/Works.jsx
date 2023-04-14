@@ -36,7 +36,7 @@ const ProjectCard = ({
               <img
                 src={github}
                 alt="github"
-                className="w-1/2 h-1/2 object-contain"
+                className="w-1/2 h-1/2 object-cover"
               />
             </div>
           </div>
@@ -71,11 +71,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Following projects showcase my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively
+          インターンでの実務経験以外でも個人開発で日々技術力を磨いてきました。アプリ開発が趣味でもあるため下記に掲載しているアプリ以外にも多くのアプリを開発してきましたが、その中でも特にお気に入りの作品を掲載しております。
         </motion.p>
 
         <div className="mt-20 flex flex-wrap gap-7">

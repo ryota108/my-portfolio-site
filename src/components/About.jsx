@@ -39,11 +39,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React,Node.js,and Three.js.
-        I'm a quick learner and collaborate closely with clients to create
-        efficient, scalable,and user-friendly solutions that solve real-world
-        problems. Let's work together to bring your ideas to life!
+        大学入学してからプログラミングに出会い、そこから時間があればプログラミングの勉強やアプリ開発に時間を割いてきました。私にとって大学生活を語るのにプログラミングは切っても切れない関係になるほど熱心に取り組んできました。このサイトでは私の学びの一部と開発物を皆様の目にとまればと作成いたします。
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -55,4 +51,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About,"about");
+export default SectionWrapper(About, "about");

@@ -13,6 +13,7 @@ import {
 } from "./components";
 
 import React from "react";
+import Blogs from "./components/Blogs";
 
 const App = () => {
   return (
@@ -26,7 +27,8 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        <Blogs/>
+        {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
