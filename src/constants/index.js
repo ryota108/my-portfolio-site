@@ -213,7 +213,7 @@ const projects = [
       },
     ],
     image: wasemeshi,
-    source_code_link: "https://github.com/ryota108",
+    source_code_link: "https://wasemeshi-next.vercel.app/",
   },
   {
     name: "Syncation",
