@@ -2,7 +2,6 @@ import { useEnvironment } from "@react-three/drei";
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -15,21 +14,13 @@ import {
   mongodb,
   git,
   univ,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   tsuzucle,
   IDEA,
   wasemeshi,
   Syncation,
   library,
+  graphQL,
+  NextJs
 } from "../assets";
 
 export const navLinks = [
@@ -102,6 +93,14 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "graphQL",
+    icon: graphQL,
+  },
+  {
+    name: "NextJS",
+    icon: NextJs,
   }
 ];
 
