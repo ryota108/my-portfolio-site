@@ -185,7 +185,22 @@ const blogs = [{
     name:"Recoil",
     color:""
   }]
-}]
+},{
+  name:"",
+  url:"https://qiita.com/Alan12d/items/f459849b6f5f91311a0b",
+  title:"ReactTesting-libraryを用いてReactにテストコードを実装する方法（備忘録）",
+  tags:[{
+    name: "React",
+    color: "blue-text-gradient",
+  },{
+    name:"Jest",
+    color:"green-text-gradient"
+  },{
+    name:"react-testing-library",
+    color:"pink-text-gradient"
+  }]
+}
+]
 
 const projects = [
   {
