@@ -29,14 +29,17 @@ const Blogs = () => {
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>My study history</p>
           <h2 className={`${styles.sectionHeadText} mb-10`} >Blogs</h2>
+          <div className="flex flex-wrap" >
           {articles?.map((article, index) => (
             <Article
               index={index}
-              name={article.title}
-              tags={article.tags}
+              name={article.title.length >= 36 ?  article.title.substring(0,36) + "..." : article.title }
+              tags={article.tags.slice(0,3)}
               url={article.url}
+              key={index}
             />
           ))}
+          </div>
         </motion.div>
       </div>
     </div>
